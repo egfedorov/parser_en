@@ -58,12 +58,6 @@ jobs:
         env:
           BRANCH: ${{ github.ref_name }}
         run: |
-          # 1) Подтянуть свежие изменения и сделать rebase локальных правок
-          git fetch origin "$BRANCH"
-          git checkout "$BRANCH"
-          git pull --rebase origin "$BRANCH"
-
-          # 2) Зафиксировать изменения, если они есть
           git add -A
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit."
@@ -71,4 +65,9 @@ jobs:
           fi
 
           git commit -m "Auto-update RSS feeds"
+
+          # Подтянуть удалённые изменения без ребейза (merge fast-forward)
+          git pull --no-rebase origin "$BRANCH" || true
+
+          # Запушить обновлённую ветку
           git push origin HEAD:"$BRANCH"
