@@ -51,27 +51,47 @@ def run_script(script: Path, cwd: Path) -> dict:
         "stderr": proc.stderr
     }
 
-def move_outputs(backend_dir: Path, out_dir: Path, patterns: list[str]) -> list[str]:
+def move_outputs(backend_dir: Path, out_dir: Path, patterns: list[str], mode: str) -> list[str]:
+    """
+    mode:
+      • 'overwrite' — перезаписывать файлы, если уже существуют
+      • 'versioned' — добавлять _1, _2, ... (старое поведение)
+      • 'skip'      — не трогать файл, если уже существует
+    """
     out_dir.mkdir(parents=True, exist_ok=True)
     moved = []
     for pat in patterns:
         for p in backend_dir.glob(pat):
-            if p.is_file():
-                target = out_dir / p.name
-                # If name collision, add numeric suffix
-                idx = 1
-                while target.exists():
-                    target = out_dir / f"{p.stem}_{idx}{p.suffix}"
-                    idx += 1
+            if not p.is_file():
+                continue
+            target = out_dir / p.name
+
+            if mode == "overwrite":
                 target.write_bytes(p.read_bytes())
                 moved.append(str(target.resolve()))
+            elif mode == "versioned":
+                t = target
+                idx = 1
+                while t.exists():
+                    t = out_dir / f"{p.stem}_{idx}{p.suffix}"
+                    idx += 1
+                t.write_bytes(p.read_bytes())
+                moved.append(str(t.resolve()))
+            elif mode == "skip":
+                if not target.exists():
+                    target.write_bytes(p.read_bytes())
+                    moved.append(str(target.resolve()))
+            else:
+                raise SystemExit(f"Неизвестный collect-mode: {mode}")
     return moved
 
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description="Run all python scripts in ./backend and generate a JSON report.")
     ap.add_argument("--backend", type=str, default=None, help="Path to backend directory (default: ./backend or ./backend/backend)")
-    ap.add_argument("--out-dir", type=str, default="outputs", help="Where to collect obvious outputs (*.json, *.csv, *.xml, *.txt)")
+    ap.add_argument("--out-dir", type=str, default="outputs", help="Where to collect outputs (*.json, *.csv, *.xml, *.txt)")
     ap.add_argument("--no-collect", action="store_true", help="Do not collect outputs")
+    ap.add_argument("--collect-mode", type=str, choices=["overwrite", "versioned", "skip"], default="overwrite",
+                    help="How to handle existing files in out-dir (default: overwrite)")
     return ap
 
 def main(argv: list[str] | None = None) -> int:
@@ -114,19 +134,16 @@ def main(argv: list[str] | None = None) -> int:
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n📄 Отчёт сохранён в: {report_path}")
 
+    moved = []
     if not args.no_collect:
         out_dir = (here / args.out_dir).resolve()
-        moved = move_outputs(backend_dir, out_dir, DEFAULT_PATTERNS)
-        print(f"📦 Перемещено файлов: {len(moved)} → {out_dir}")
-    else:
-        moved = []
+        moved = move_outputs(backend_dir, out_dir, DEFAULT_PATTERNS, args.collect_mode)
+        print(f"📦 Перемещено файлов: {len(moved)} → {out_dir} (mode={args.collect_mode})")
 
-    # Also place a lightweight summary at the end
     print("\n===== Итог =====")
     print(f"Всего скриптов: {len(scripts)}")
     print(f"Успешно:       {len(scripts) - failures}")
     print(f"С ошибками:    {failures}")
-
     return 1 if failures else 0
 
 if __name__ == "__main__":
