@@ -7,73 +7,73 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:47.743824Z",
-      "ended_at": "2025-08-29T10:21:48.273429Z",
+      "started_at": "2025-08-29T10:42:55.057542Z",
+      "ended_at": "2025-08-29T10:42:55.506036Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:48.273456Z",
-      "ended_at": "2025-08-29T10:21:51.341204Z",
+      "started_at": "2025-08-29T10:42:55.506068Z",
+      "ended_at": "2025-08-29T10:42:57.261214Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:51.341232Z",
-      "ended_at": "2025-08-29T10:21:51.728141Z",
+      "started_at": "2025-08-29T10:42:57.261240Z",
+      "ended_at": "2025-08-29T10:42:58.519576Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:51.728165Z",
-      "ended_at": "2025-08-29T10:21:52.040055Z",
+      "started_at": "2025-08-29T10:42:58.519600Z",
+      "ended_at": "2025-08-29T10:42:58.887588Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:52.040079Z",
-      "ended_at": "2025-08-29T10:21:52.331833Z",
+      "started_at": "2025-08-29T10:42:58.887611Z",
+      "ended_at": "2025-08-29T10:42:59.168136Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:21:52.331859Z",
-      "ended_at": "2025-08-29T10:22:17.317920Z",
+      "started_at": "2025-08-29T10:42:59.168160Z",
+      "ended_at": "2025-08-29T10:43:23.755207Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:22:17.317944Z",
-      "ended_at": "2025-08-29T10:22:17.623497Z",
+      "started_at": "2025-08-29T10:43:23.755232Z",
+      "ended_at": "2025-08-29T10:43:24.165975Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:22:17.623530Z",
-      "ended_at": "2025-08-29T10:22:18.342215Z",
+      "started_at": "2025-08-29T10:43:24.166002Z",
+      "ended_at": "2025-08-29T10:43:24.943517Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-08-29T10:22:18.342239Z",
-      "ended_at": "2025-08-29T10:22:22.345489Z",
-      "stdout": "",
+      "started_at": "2025-08-29T10:43:24.943544Z",
+      "ended_at": "2025-08-29T10:43:44.893157Z",
+      "stdout": "[WARN] Не удалось получить дату из https://www.wired.com/story/lisa-su-runs-amd-and-is-out-for-nvidias-blood/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/story/lisa-su-runs-amd-and-is-out-for-nvidias-blood/\n",
       "stderr": ""
     }
   ]
