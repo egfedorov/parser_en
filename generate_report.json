@@ -1,79 +1,87 @@
 {
   "backend_dir": "/home/runner/work/parser_en/parser_en/backend",
-  "total": 9,
-  "success": 9,
+  "total": 10,
+  "success": 10,
   "failures": 0,
   "results": [
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:40:52.120118Z",
-      "ended_at": "2025-09-01T22:40:52.743696Z",
+      "started_at": "2025-09-01T22:59:20.308992Z",
+      "ended_at": "2025-09-01T22:59:20.808145Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:40:52.743722Z",
-      "ended_at": "2025-09-01T22:40:55.196527Z",
+      "started_at": "2025-09-01T22:59:20.808168Z",
+      "ended_at": "2025-09-01T22:59:31.317287Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:40:55.196547Z",
-      "ended_at": "2025-09-01T22:40:56.436309Z",
+      "started_at": "2025-09-01T22:59:31.317309Z",
+      "ended_at": "2025-09-01T22:59:31.755101Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:40:56.436330Z",
-      "ended_at": "2025-09-01T22:41:02.605673Z",
+      "started_at": "2025-09-01T22:59:31.755121Z",
+      "ended_at": "2025-09-01T22:59:32.140813Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:41:02.605696Z",
-      "ended_at": "2025-09-01T22:41:02.929887Z",
+      "started_at": "2025-09-01T22:59:32.140834Z",
+      "ended_at": "2025-09-01T22:59:32.414266Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:41:02.929908Z",
-      "ended_at": "2025-09-01T22:41:27.770285Z",
+      "started_at": "2025-09-01T22:59:32.414288Z",
+      "ended_at": "2025-09-01T22:59:57.208809Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:41:27.770309Z",
-      "ended_at": "2025-09-01T22:41:28.199105Z",
+      "started_at": "2025-09-01T22:59:57.208831Z",
+      "ended_at": "2025-09-01T22:59:57.622387Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:41:28.199130Z",
-      "ended_at": "2025-09-01T22:41:29.318257Z",
+      "started_at": "2025-09-01T22:59:57.622408Z",
+      "ended_at": "2025-09-01T22:59:58.443148Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-09-01T22:41:29.318281Z",
-      "ended_at": "2025-09-01T22:41:33.517130Z",
+      "started_at": "2025-09-01T22:59:58.443170Z",
+      "ended_at": "2025-09-01T23:00:02.380435Z",
       "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "wp_inv.py",
+      "returncode": 0,
+      "started_at": "2025-09-01T23:00:02.380496Z",
+      "ended_at": "2025-09-01T23:00:06.585663Z",
+      "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     }
   ]
