@@ -6,7 +6,8 @@ import re
 import os
 
 def parse_wp_date_from_url(url: str):
-    m = re.search(r'/personal-tech/(\d{4})/(\d{2})/(\d{2})/', url)
+    # Ловим дату в формате YYYY/MM/DD или YYYY-MM-DD
+    m = re.search(r'(\d{4})[/-](\d{2})[/-](\d{2})', url)
     if m:
         year, month, day = map(int, m.groups())
         return datetime(year, month, day, 12, 0, tzinfo=timezone.utc)
@@ -32,7 +33,7 @@ def generate():
 
     seen_links = set()
 
-    for link_tag in soup.find_all("a", href=re.compile(r"/personal-tech/\d{4}/\d{2}/\d{2}/")):
+    for link_tag in soup.find_all("a", href=re.compile(r"/personal-tech/")):
         title = link_tag.get_text(strip=True)
         if not title:
             continue
@@ -56,11 +57,13 @@ def generate():
         fe.description(description)
         fe.pubDate(pub_date)
 
+        print(f"Добавлена статья: {title}")
+
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     output_path = os.path.join(parent_dir, "wapo_tech.xml")
     fg.rss_file(output_path, encoding="utf-8")
 
-    print(f"RSS создан: {output_path}")
+    print(f"✅ RSS создан: {output_path}, статей собрано: {len(seen_links)}")
 
 if __name__ == "__main__":
     generate()
