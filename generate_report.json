@@ -7,96 +7,96 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:50.634921Z",
-      "ended_at": "2025-09-09T05:41:51.250401Z",
+      "started_at": "2025-09-09T06:34:00.270985Z",
+      "ended_at": "2025-09-09T06:34:00.819408Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:51.250427Z",
-      "ended_at": "2025-09-09T05:41:52.873192Z",
+      "started_at": "2025-09-09T06:34:00.819431Z",
+      "ended_at": "2025-09-09T06:34:02.807680Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:52.873215Z",
-      "ended_at": "2025-09-09T05:41:54.554413Z",
+      "started_at": "2025-09-09T06:34:02.807701Z",
+      "ended_at": "2025-09-09T06:34:03.434033Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:54.554434Z",
-      "ended_at": "2025-09-09T05:41:55.047080Z",
+      "started_at": "2025-09-09T06:34:03.434053Z",
+      "ended_at": "2025-09-09T06:34:03.895146Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:55.047105Z",
-      "ended_at": "2025-09-09T05:41:55.342495Z",
+      "started_at": "2025-09-09T06:34:03.895166Z",
+      "ended_at": "2025-09-09T06:34:04.207825Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:41:55.342517Z",
-      "ended_at": "2025-09-09T05:42:20.233500Z",
+      "started_at": "2025-09-09T06:34:04.207849Z",
+      "ended_at": "2025-09-09T06:34:29.055298Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:20.233523Z",
-      "ended_at": "2025-09-09T05:42:20.715893Z",
+      "started_at": "2025-09-09T06:34:29.055322Z",
+      "ended_at": "2025-09-09T06:34:29.457976Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:20.715918Z",
-      "ended_at": "2025-09-09T05:42:21.484168Z",
+      "started_at": "2025-09-09T06:34:29.458003Z",
+      "ended_at": "2025-09-09T06:34:30.317166Z",
       "stdout": "[WARN] Не удалось распарсить дату: 'Yesterday at 7:00 a.m.'\n",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:21.484192Z",
-      "ended_at": "2025-09-09T05:42:25.648770Z",
+      "started_at": "2025-09-09T06:34:30.317190Z",
+      "ended_at": "2025-09-09T06:34:35.651880Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:25.648795Z",
-      "ended_at": "2025-09-09T05:42:29.729863Z",
+      "started_at": "2025-09-09T06:34:35.651946Z",
+      "ended_at": "2025-09-09T06:34:40.194053Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:29.729887Z",
-      "ended_at": "2025-09-09T05:42:33.488660Z",
+      "started_at": "2025-09-09T06:34:40.194077Z",
+      "ended_at": "2025-09-09T06:34:44.258708Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-09-09T05:42:33.488684Z",
-      "ended_at": "2025-09-09T05:42:37.205710Z",
+      "started_at": "2025-09-09T06:34:44.258735Z",
+      "ended_at": "2025-09-09T06:34:48.231562Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
