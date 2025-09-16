@@ -7,96 +7,96 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:44.071814Z",
-      "ended_at": "2025-09-16T15:42:44.698383Z",
+      "started_at": "2025-09-16T16:27:17.560141Z",
+      "ended_at": "2025-09-16T16:27:18.004299Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:44.698411Z",
-      "ended_at": "2025-09-16T15:42:45.160893Z",
+      "started_at": "2025-09-16T16:27:18.004324Z",
+      "ended_at": "2025-09-16T16:27:18.436390Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:45.160918Z",
-      "ended_at": "2025-09-16T15:42:47.078518Z",
+      "started_at": "2025-09-16T16:27:18.436413Z",
+      "ended_at": "2025-09-16T16:27:18.846822Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:47.078543Z",
-      "ended_at": "2025-09-16T15:42:47.435169Z",
+      "started_at": "2025-09-16T16:27:18.846846Z",
+      "ended_at": "2025-09-16T16:27:19.363602Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:47.435194Z",
-      "ended_at": "2025-09-16T15:42:47.789378Z",
+      "started_at": "2025-09-16T16:27:19.363623Z",
+      "ended_at": "2025-09-16T16:27:19.712145Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:42:47.789400Z",
-      "ended_at": "2025-09-16T15:43:12.720527Z",
+      "started_at": "2025-09-16T16:27:19.712166Z",
+      "ended_at": "2025-09-16T16:27:44.552974Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:12.720551Z",
-      "ended_at": "2025-09-16T15:43:13.093854Z",
+      "started_at": "2025-09-16T16:27:44.552997Z",
+      "ended_at": "2025-09-16T16:27:44.843352Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:13.093882Z",
-      "ended_at": "2025-09-16T15:43:13.439756Z",
+      "started_at": "2025-09-16T16:27:44.843378Z",
+      "ended_at": "2025-09-16T16:27:45.272363Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:13.439780Z",
-      "ended_at": "2025-09-16T15:43:28.879246Z",
-      "stdout": "[WARN] Не удалось получить дату из https://www.wired.com/story/lisa-su-runs-amd-and-is-out-for-nvidias-blood/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/story/lisa-su-runs-amd-and-is-out-for-nvidias-blood/\n",
+      "started_at": "2025-09-16T16:27:45.272386Z",
+      "ended_at": "2025-09-16T16:27:48.715327Z",
+      "stdout": "",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:28.879272Z",
-      "ended_at": "2025-09-16T15:43:32.944939Z",
+      "started_at": "2025-09-16T16:27:48.715352Z",
+      "ended_at": "2025-09-16T16:27:52.890355Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:32.944963Z",
-      "ended_at": "2025-09-16T15:43:36.569405Z",
+      "started_at": "2025-09-16T16:27:52.890379Z",
+      "ended_at": "2025-09-16T16:27:56.411991Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-09-16T15:43:36.569431Z",
-      "ended_at": "2025-09-16T15:43:40.212340Z",
+      "started_at": "2025-09-16T16:27:56.412017Z",
+      "ended_at": "2025-09-16T16:28:00.041941Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
