@@ -7,96 +7,96 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:11.117367Z",
-      "ended_at": "2025-09-25T17:40:11.567116Z",
+      "started_at": "2025-09-25T18:32:24.914819Z",
+      "ended_at": "2025-09-25T18:32:25.458670Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:11.567141Z",
-      "ended_at": "2025-09-25T17:40:15.084971Z",
+      "started_at": "2025-09-25T18:32:25.458696Z",
+      "ended_at": "2025-09-25T18:32:28.826346Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:15.084994Z",
-      "ended_at": "2025-09-25T17:40:15.601785Z",
+      "started_at": "2025-09-25T18:32:28.826370Z",
+      "ended_at": "2025-09-25T18:32:30.012949Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:15.601808Z",
-      "ended_at": "2025-09-25T17:40:16.123357Z",
+      "started_at": "2025-09-25T18:32:30.012973Z",
+      "ended_at": "2025-09-25T18:32:30.385424Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:16.123381Z",
-      "ended_at": "2025-09-25T17:40:16.558446Z",
+      "started_at": "2025-09-25T18:32:30.385448Z",
+      "ended_at": "2025-09-25T18:32:30.742507Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:16.558469Z",
-      "ended_at": "2025-09-25T17:40:41.425763Z",
+      "started_at": "2025-09-25T18:32:30.742528Z",
+      "ended_at": "2025-09-25T18:32:55.438116Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:41.425792Z",
-      "ended_at": "2025-09-25T17:40:41.785355Z",
+      "started_at": "2025-09-25T18:32:55.438138Z",
+      "ended_at": "2025-09-25T18:32:55.893648Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:41.785382Z",
-      "ended_at": "2025-09-25T17:40:42.164406Z",
+      "started_at": "2025-09-25T18:32:55.893670Z",
+      "ended_at": "2025-09-25T18:32:56.295343Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:42.164434Z",
-      "ended_at": "2025-09-25T17:40:46.811335Z",
-      "stdout": "",
+      "started_at": "2025-09-25T18:32:56.295366Z",
+      "ended_at": "2025-09-25T18:33:10.365766Z",
+      "stdout": "[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-all-hail-the-technocracy/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-kat-out-of-the-bag/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-boom-goes-bust/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-space-invaders/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-farenheit-5g/\n",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:46.811359Z",
-      "ended_at": "2025-09-25T17:40:50.358669Z",
+      "started_at": "2025-09-25T18:33:10.365795Z",
+      "ended_at": "2025-09-25T18:33:14.200595Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:50.358691Z",
-      "ended_at": "2025-09-25T17:40:54.074043Z",
+      "started_at": "2025-09-25T18:33:14.200617Z",
+      "ended_at": "2025-09-25T18:33:17.772002Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-09-25T17:40:54.074067Z",
-      "ended_at": "2025-09-25T17:40:57.922650Z",
+      "started_at": "2025-09-25T18:33:17.772026Z",
+      "ended_at": "2025-09-25T18:33:21.403166Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
