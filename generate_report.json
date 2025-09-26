@@ -7,96 +7,96 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:22.016795Z",
-      "ended_at": "2025-09-26T17:40:22.690198Z",
+      "started_at": "2025-09-26T18:28:45.486827Z",
+      "ended_at": "2025-09-26T18:28:46.329747Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:22.690221Z",
-      "ended_at": "2025-09-26T17:40:23.164602Z",
+      "started_at": "2025-09-26T18:28:46.329771Z",
+      "ended_at": "2025-09-26T18:28:48.196034Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:23.164625Z",
-      "ended_at": "2025-09-26T17:40:23.668341Z",
+      "started_at": "2025-09-26T18:28:48.196056Z",
+      "ended_at": "2025-09-26T18:28:58.435625Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:23.668362Z",
-      "ended_at": "2025-09-26T17:40:24.152910Z",
+      "started_at": "2025-09-26T18:28:58.435647Z",
+      "ended_at": "2025-09-26T18:28:58.854173Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:24.152929Z",
-      "ended_at": "2025-09-26T17:40:24.496616Z",
+      "started_at": "2025-09-26T18:28:58.854197Z",
+      "ended_at": "2025-09-26T18:28:59.177159Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:24.496638Z",
-      "ended_at": "2025-09-26T17:40:49.184537Z",
+      "started_at": "2025-09-26T18:28:59.177181Z",
+      "ended_at": "2025-09-26T18:29:24.045711Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:49.184562Z",
-      "ended_at": "2025-09-26T17:40:49.508347Z",
+      "started_at": "2025-09-26T18:29:24.045731Z",
+      "ended_at": "2025-09-26T18:29:24.451476Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:49.508373Z",
-      "ended_at": "2025-09-26T17:40:49.842744Z",
+      "started_at": "2025-09-26T18:29:24.451499Z",
+      "ended_at": "2025-09-26T18:29:24.696674Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:40:49.842765Z",
-      "ended_at": "2025-09-26T17:41:00.628381Z",
-      "stdout": "[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-all-hail-the-technocracy/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-doge-oral-history/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-2025-political-power-users/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-kat-out-of-the-bag/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-boom-goes-bust/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-space-invaders/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-farenheit-5g/\n",
+      "started_at": "2025-09-26T18:29:24.696697Z",
+      "ended_at": "2025-09-26T18:30:37.942579Z",
+      "stdout": "[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-all-hail-the-technocracy/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-all-hail-the-technocracy/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-doge-oral-history/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-doge-oral-history/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-2025-political-power-users/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-2025-political-power-users/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-kat-out-of-the-bag/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-kat-out-of-the-bag/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-boom-goes-bust/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-boom-goes-bust/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-space-invaders/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-space-invaders/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/politics-issue-farenheit-5g/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/politics-issue-farenheit-5g/\n",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:41:00.628408Z",
-      "ended_at": "2025-09-26T17:41:04.683797Z",
+      "started_at": "2025-09-26T18:30:37.942605Z",
+      "ended_at": "2025-09-26T18:30:42.457594Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:41:04.683822Z",
-      "ended_at": "2025-09-26T17:41:08.432974Z",
+      "started_at": "2025-09-26T18:30:42.457617Z",
+      "ended_at": "2025-09-26T18:30:46.003850Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-09-26T17:41:08.433001Z",
-      "ended_at": "2025-09-26T17:41:12.040256Z",
+      "started_at": "2025-09-26T18:30:46.003874Z",
+      "ended_at": "2025-09-26T18:30:49.518199Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
