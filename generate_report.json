@@ -7,96 +7,96 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:22.038887Z",
-      "ended_at": "2025-11-05T22:21:22.604673Z",
+      "started_at": "2025-11-05T22:42:48.832223Z",
+      "ended_at": "2025-11-05T22:42:49.600829Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:22.604695Z",
-      "ended_at": "2025-11-05T22:21:25.784181Z",
+      "started_at": "2025-11-05T22:42:49.600850Z",
+      "ended_at": "2025-11-05T22:42:51.174603Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:25.784204Z",
-      "ended_at": "2025-11-05T22:21:26.237131Z",
+      "started_at": "2025-11-05T22:42:51.174623Z",
+      "ended_at": "2025-11-05T22:42:54.317418Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:26.237152Z",
-      "ended_at": "2025-11-05T22:21:26.568554Z",
+      "started_at": "2025-11-05T22:42:54.317439Z",
+      "ended_at": "2025-11-05T22:42:54.642067Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:26.568575Z",
-      "ended_at": "2025-11-05T22:21:26.862710Z",
+      "started_at": "2025-11-05T22:42:54.642088Z",
+      "ended_at": "2025-11-05T22:42:54.958373Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:26.862731Z",
-      "ended_at": "2025-11-05T22:21:51.687425Z",
+      "started_at": "2025-11-05T22:42:54.958393Z",
+      "ended_at": "2025-11-05T22:43:19.892373Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:51.687446Z",
-      "ended_at": "2025-11-05T22:21:52.063852Z",
+      "started_at": "2025-11-05T22:43:19.892394Z",
+      "ended_at": "2025-11-05T22:43:20.250860Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:52.063875Z",
-      "ended_at": "2025-11-05T22:21:52.323661Z",
+      "started_at": "2025-11-05T22:43:20.250881Z",
+      "ended_at": "2025-11-05T22:43:20.517151Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:21:52.323681Z",
-      "ended_at": "2025-11-05T22:22:07.359291Z",
-      "stdout": "[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-therapist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-teacher/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-pr/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-black-box/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-artist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-bubble/\n[WARN] Не удалось получить дату для https://www.wired.com/ai-issue/\n",
+      "started_at": "2025-11-05T22:43:20.517169Z",
+      "ended_at": "2025-11-05T22:43:42.754504Z",
+      "stdout": "[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue/\n[WARN] Не удалось получить дату из https://www.wired.com/visual-story/ai-issue-therapist/: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=10)\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-therapist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-teacher/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-pr/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-black-box/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-artist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-bubble/\n[WARN] Не удалось получить дату для https://www.wired.com/ai-issue/\n",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:22:07.359314Z",
-      "ended_at": "2025-11-05T22:22:11.890717Z",
+      "started_at": "2025-11-05T22:43:42.754529Z",
+      "ended_at": "2025-11-05T22:44:00.195324Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:22:11.890739Z",
-      "ended_at": "2025-11-05T22:22:15.085564Z",
+      "started_at": "2025-11-05T22:44:00.195345Z",
+      "ended_at": "2025-11-05T22:44:03.641218Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-11-05T22:22:15.085583Z",
-      "ended_at": "2025-11-05T22:22:18.791616Z",
+      "started_at": "2025-11-05T22:44:03.641239Z",
+      "ended_at": "2025-11-05T22:44:08.469318Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
