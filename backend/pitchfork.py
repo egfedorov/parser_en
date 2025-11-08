@@ -5,8 +5,10 @@ from datetime import datetime, timezone
 from urllib.parse import urljoin
 
 def parse_date(date_str: str) -> datetime:
-    """Парсит строку вида 'November 6, 2025'"""
+    """Парсит строку вида 'October 15, 2025'"""
     try:
+        if not date_str or "just" in date_str.lower():
+            return datetime.now(timezone.utc)
         dt = datetime.strptime(date_str.strip(), "%B %d, %Y")
         return dt.replace(tzinfo=timezone.utc)
     except Exception:
@@ -49,7 +51,7 @@ def generate():
         image_url = img_tag.get("src") if img_tag and img_tag.has_attr("src") else ""
 
         date_text = date_tag.get_text(strip=True) if date_tag else ""
-        pub_date = parse_date(date_text) if date_text else datetime.now(timezone.utc)
+        pub_date = parse_date(date_text)
 
         fe = fg.add_entry()
         fe.id(link)
@@ -60,7 +62,6 @@ def generate():
             fe.enclosure(url=image_url, type="image/jpeg")
         fe.pubDate(pub_date)
 
-    # Сохраняем XML в корень репозитория
     fg.rss_file("../pitchfork.xml", encoding="utf-8")
 
 if __name__ == "__main__":
