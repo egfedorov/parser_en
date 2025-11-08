@@ -1,0 +1,22 @@
+name: Test single script
+on:
+  workflow_dispatch:  # запуск вручную из вкладки Actions
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 feedgen
+
+      - name: Run selected script
+        run: python pitchfork.py
