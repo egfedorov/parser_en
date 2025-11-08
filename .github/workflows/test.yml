@@ -1,12 +1,14 @@
-name: Test single script
+name: Test Pitchfork Parser
+
 on:
-  workflow_dispatch:  # запуск вручную из вкладки Actions
+  workflow_dispatch:  # Позволяет запускать вручную из вкладки Actions
 
 jobs:
-  run-script:
+  run-pitchfork:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -18,5 +20,7 @@ jobs:
         run: |
           pip install requests beautifulsoup4 feedgen
 
-      - name: Run selected script
-        run: python pitchfork.py
+      - name: Run Pitchfork parser
+        working-directory: backend
+        run: |
+          python pitchfork.py
