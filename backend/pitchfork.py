@@ -5,12 +5,10 @@ from datetime import datetime, timezone
 from urllib.parse import urljoin
 
 def parse_date(date_str: str) -> datetime:
-    """Парсит дату из Pitchfork (формат: 2025-11-04T00:00:00)"""
+    """Парсит строку вида 'November 6, 2025'"""
     try:
-        dt = datetime.fromisoformat(date_str)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
+        dt = datetime.strptime(date_str.strip(), "%B %d, %Y")
+        return dt.replace(tzinfo=timezone.utc)
     except Exception:
         return datetime.now(timezone.utc)
 
@@ -50,8 +48,8 @@ def generate():
         description = desc_tag.get_text(strip=True) if desc_tag else ""
         image_url = img_tag.get("src") if img_tag and img_tag.has_attr("src") else ""
 
-        date_str = date_tag.get("datetime") if date_tag and date_tag.has_attr("datetime") else None
-        pub_date = parse_date(date_str) if date_str else datetime.now(timezone.utc)
+        date_text = date_tag.get_text(strip=True) if date_tag else ""
+        pub_date = parse_date(date_text) if date_text else datetime.now(timezone.utc)
 
         fe = fg.add_entry()
         fe.id(link)
