@@ -4,10 +4,8 @@ from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
 
 def parse_date(date_str: str) -> datetime:
-    # Пример: '2025-07-22T13:30:00Z'
     try:
         dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-        # гарантируем, что есть timezone info
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt
@@ -48,7 +46,8 @@ def generate():
         fe.description(description)
         fe.pubDate(pub_date)
 
-    fg.rss_file('pitchfork.xml', encoding='utf-8')
+    # 💡 сохраняем XML в корень репозитория
+    fg.rss_file('../pitchfork.xml', encoding='utf-8')
 
 if __name__ == '__main__':
     generate()
