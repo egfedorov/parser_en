@@ -1,110 +1,126 @@
 {
   "backend_dir": "/home/runner/work/parser_en/parser_en/backend",
-  "total": 13,
-  "success": 13,
+  "total": 15,
+  "success": 15,
   "failures": 0,
   "results": [
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:15.371160Z",
-      "ended_at": "2025-11-08T23:40:15.857184Z",
+      "started_at": "2025-11-09T00:21:48.029248Z",
+      "ended_at": "2025-11-09T00:21:48.539852Z",
       "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "gallup.py",
+      "returncode": 0,
+      "started_at": "2025-11-09T00:21:48.539878Z",
+      "ended_at": "2025-11-09T00:21:48.589819Z",
+      "stdout": "⚠️  Skipping parsing: gallup.py (site temporarily unavailable)\n✅ Stub RSS written: /home/runner/work/parser_en/parser_en/backend/../gallup.xml\n",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:15.857210Z",
-      "ended_at": "2025-11-08T23:40:18.699978Z",
+      "started_at": "2025-11-09T00:21:48.589847Z",
+      "ended_at": "2025-11-09T00:21:49.032996Z",
       "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "macleans1.py",
+      "returncode": 0,
+      "started_at": "2025-11-09T00:21:49.033021Z",
+      "ended_at": "2025-11-09T00:21:49.083397Z",
+      "stdout": "⚠️  Skipping parsing: macleans1.py (site temporarily unavailable)\n✅ Stub RSS written: /home/runner/work/parser_en/parser_en/backend/../macleans1.xml\n",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:18.700002Z",
-      "ended_at": "2025-11-08T23:40:20.069567Z",
+      "started_at": "2025-11-09T00:21:49.083420Z",
+      "ended_at": "2025-11-09T00:21:49.391251Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:20.069592Z",
-      "ended_at": "2025-11-08T23:40:20.561366Z",
+      "started_at": "2025-11-09T00:21:49.391277Z",
+      "ended_at": "2025-11-09T00:21:49.805965Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:20.561390Z",
-      "ended_at": "2025-11-08T23:40:20.907087Z",
+      "started_at": "2025-11-09T00:21:49.805995Z",
+      "ended_at": "2025-11-09T00:21:50.195753Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "pitchfork.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:20.907111Z",
-      "ended_at": "2025-11-08T23:40:44.518813Z",
+      "started_at": "2025-11-09T00:21:50.195778Z",
+      "ended_at": "2025-11-09T00:22:07.035484Z",
       "stdout": "📰 Found 99 articles. Fetching dates...\n✓ Parsed: A Messy Evening With Bassvictim — 2025-11-06T16:58:56+00:00\n✓ Parsed: What Happened at Pitchfork’s Zine Launch With Oklou — 2025-10-17T18:43:48+00:00\n✓ Parsed: In the Time of D’Angelo — 2025-10-15T18:09:23+00:00\n✓ Parsed: The 84 Best Albums of 2025 So Far — 2025-10-15T13:54:09+00:00\n✓ Parsed: Grizzly Bear Are Back and Want to Play the Deep Cuts — 2025-10-10T14:46:31+00:00\n✓ Parsed: The Best Rap Albums of All Time, According to Pitchfork Readers — 2025-10-01T14:13:37+00:00\n✓ Parsed: Oklou’s Endless Summer — 2025-10-01T12:00:00+00:00\n✓ Parsed: The 100 Best Rap Albums of All Time — 2025-09-30T14:54:34+00:00\n✓ Parsed: Neko Case Gets Better With Age — 2025-09-16T13:00:00+00:00\n✓ Parsed: Big Thief on Love, Politics, and Staying Together — 2025-09-04T17:02:46+00:00\n✓ Parsed: Dekmantel Is a Dance Festival Shedding Light on the Underground — 2025-08-14T16:06:16+00:00\n✓ Parsed: 20 Contenders for the 2025 Song of the Summer — 2025-08-06T15:37:04+00:00\n✓ Parsed: Some Kind of Wonderful: Algernon Cadwallader on Their Reunion and New Album — 2025-08-05T13:00:10+00:00\n✓ Parsed: Cardo Got Wings on the Music That Made Him — 2025-08-01T15:25:23+00:00\n✓ Parsed: For the Back Street Kids — 2025-07-24T13:59:41+00:00\n✅ pitchfork.xml generated successfully\n",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:40:44.518839Z",
-      "ended_at": "2025-11-08T23:41:09.284039Z",
+      "started_at": "2025-11-09T00:22:07.035511Z",
+      "ended_at": "2025-11-09T00:22:31.714514Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:09.284067Z",
-      "ended_at": "2025-11-08T23:41:09.729981Z",
+      "started_at": "2025-11-09T00:22:31.714542Z",
+      "ended_at": "2025-11-09T00:22:32.092589Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:09.730006Z",
-      "ended_at": "2025-11-08T23:41:10.081939Z",
+      "started_at": "2025-11-09T00:22:32.092617Z",
+      "ended_at": "2025-11-09T00:22:32.408982Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:10.081963Z",
-      "ended_at": "2025-11-08T23:41:31.847459Z",
+      "started_at": "2025-11-09T00:22:32.409008Z",
+      "ended_at": "2025-11-09T00:22:43.304845Z",
       "stdout": "[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-therapist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-teacher/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-pr/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-black-box/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-artist/\n[WARN] Не удалось получить дату для https://www.wired.com/visual-story/ai-issue-bubble/\n[WARN] Не удалось получить дату для https://www.wired.com/ai-issue/\n",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:31.847523Z",
-      "ended_at": "2025-11-08T23:41:36.984673Z",
+      "started_at": "2025-11-09T00:22:43.304873Z",
+      "ended_at": "2025-11-09T00:22:47.059740Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:36.984696Z",
-      "ended_at": "2025-11-08T23:41:40.686810Z",
+      "started_at": "2025-11-09T00:22:47.059766Z",
+      "ended_at": "2025-11-09T00:22:50.746999Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2025-11-08T23:41:40.686833Z",
-      "ended_at": "2025-11-08T23:41:44.685221Z",
+      "started_at": "2025-11-09T00:22:50.747024Z",
+      "ended_at": "2025-11-09T00:22:54.403357Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
