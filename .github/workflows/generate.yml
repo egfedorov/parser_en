@@ -2,8 +2,7 @@ name: Generate RSS
 
 on:
   schedule:
-    # каждые 0 и 30 минут (UTC)
-    - cron: '30 * * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 concurrency:
