@@ -7,120 +7,120 @@
     {
       "script": "atlantic.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:33.424364Z",
-      "ended_at": "2026-08-12T15:47:34.048292Z",
+      "started_at": "2026-08-12T16:43:26.636535Z",
+      "ended_at": "2026-08-12T16:43:27.300906Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "gallup.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:34.048351Z",
-      "ended_at": "2026-08-12T15:47:34.101849Z",
+      "started_at": "2026-08-12T16:43:27.300931Z",
+      "ended_at": "2026-08-12T16:43:27.352504Z",
       "stdout": "⚠️  Skipping parsing: gallup.py (site temporarily unavailable)\n✅ Stub RSS written: /home/runner/work/parser_en/parser_en/backend/../gallup.xml\n",
       "stderr": ""
     },
     {
       "script": "gq.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:34.101875Z",
-      "ended_at": "2026-08-12T15:47:36.388409Z",
+      "started_at": "2026-08-12T16:43:27.352522Z",
+      "ended_at": "2026-08-12T16:43:30.000005Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "macleans1.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:36.388437Z",
-      "ended_at": "2026-08-12T15:47:36.441596Z",
+      "started_at": "2026-08-12T16:43:30.000029Z",
+      "ended_at": "2026-08-12T16:43:30.051508Z",
       "stdout": "⚠️  Skipping parsing: macleans1.py (site temporarily unavailable)\n✅ Stub RSS written: /home/runner/work/parser_en/parser_en/backend/../macleans1.xml\n",
       "stderr": ""
     },
     {
       "script": "newyorker.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:36.441620Z",
-      "ended_at": "2026-08-12T15:47:36.963958Z",
+      "started_at": "2026-08-12T16:43:30.051524Z",
+      "ended_at": "2026-08-12T16:43:31.303901Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nyt.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:36.963989Z",
-      "ended_at": "2026-08-12T15:47:37.701357Z",
+      "started_at": "2026-08-12T16:43:31.303922Z",
+      "ended_at": "2026-08-12T16:43:31.939478Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "nytmag.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:37.701387Z",
-      "ended_at": "2026-08-12T15:47:38.248466Z",
+      "started_at": "2026-08-12T16:43:31.939503Z",
+      "ended_at": "2026-08-12T16:43:32.471835Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "pitchfork.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:38.248498Z",
-      "ended_at": "2026-08-12T15:47:38.943563Z",
+      "started_at": "2026-08-12T16:43:32.471858Z",
+      "ended_at": "2026-08-12T16:43:33.053063Z",
       "stdout": "📰 Found 0 articles. Fetching dates...\n✅ pitchfork.xml generated successfully\n",
       "stderr": ""
     },
     {
       "script": "reuters.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:47:38.943594Z",
-      "ended_at": "2026-08-12T15:48:04.331723Z",
+      "started_at": "2026-08-12T16:43:33.053089Z",
+      "ended_at": "2026-08-12T16:43:58.191718Z",
       "stdout": "Collected 0 items\n",
       "stderr": ""
     },
     {
       "script": "semafor.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:04.331754Z",
-      "ended_at": "2026-08-12T15:48:04.775069Z",
+      "started_at": "2026-08-12T16:43:58.191740Z",
+      "ended_at": "2026-08-12T16:43:58.584743Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "vulture.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:04.775098Z",
-      "ended_at": "2026-08-12T15:48:05.171929Z",
+      "started_at": "2026-08-12T16:43:58.584766Z",
+      "ended_at": "2026-08-12T16:43:58.934535Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wired.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:05.171958Z",
-      "ended_at": "2026-08-12T15:48:05.726969Z",
+      "started_at": "2026-08-12T16:43:58.934559Z",
+      "ended_at": "2026-08-12T16:43:59.554050Z",
       "stdout": "",
       "stderr": ""
     },
     {
       "script": "wp_internet.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:05.727003Z",
-      "ended_at": "2026-08-12T15:48:11.936286Z",
+      "started_at": "2026-08-12T16:43:59.554077Z",
+      "ended_at": "2026-08-12T16:44:03.692814Z",
       "stdout": "✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_internet.xml, статей собрано: 0\n",
       "stderr": ""
     },
     {
       "script": "wp_inv.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:11.936341Z",
-      "ended_at": "2026-08-12T15:48:16.163553Z",
+      "started_at": "2026-08-12T16:44:03.692840Z",
+      "ended_at": "2026-08-12T16:44:07.530007Z",
       "stdout": "RSS создан: /home/runner/work/parser_en/parser_en/wapo_inv.xml\n",
       "stderr": ""
     },
     {
       "script": "wp_tech.py",
       "returncode": 0,
-      "started_at": "2026-08-12T15:48:16.163583Z",
-      "ended_at": "2026-08-12T15:48:20.325668Z",
+      "started_at": "2026-08-12T16:44:07.530033Z",
+      "ended_at": "2026-08-12T16:44:11.361193Z",
       "stdout": "Добавлена статья: Tech in Your Life\nДобавлена статья: Your Data and Privacy\nДобавлена статья: Internet Access\nДобавлена статья: What's New\nДобавлена статья: Ethical Issues\n✅ RSS создан: /home/runner/work/parser_en/parser_en/wapo_tech.xml, статей собрано: 5\n",
       "stderr": ""
     }
